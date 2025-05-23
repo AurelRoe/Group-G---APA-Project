@@ -1,1 +1,44 @@
+Explanation of files
 
+1. Binary_Speech_to_Text.ipynb
+Finding the optimal binairy model and applying the audio files
+
+2. Combined_model.ipynb
+This file contains the best models for the sentiment analysis and the emotion detection. The optimal parameters will be determined in this file and the models will be saved. 
+This creates or overwrites the files:
+- assets.pkl
+- emotions_model.keras
+- sentiment_model.keras
+- tokenizer.pkl
+
+3. Comparison AI
+This compares the accuracy of our model with the Claude LLM. 
+Use the API key that is provided in the report. 
+
+4. custom_functions.py
+Custom functions and layers for the models are stored here
+
+5. DemoDiary.ipynb
+Demonstration of the use of the sentiment and emotion detection
+
+6. labels_2.csv 
+Script, sentiment and emotions of the audios= files
+
+7. mood_diary.csv
+Diary entries and predictions are stores here
+
+8. MultiLabelModel.ipynb
+File used to research which is the best model to use for multilabel classification
+
+9. PredictEmotionsSentiment.py
+The prediction function is stored here. 
+
+10. Speech_to_Text_Multiclass.ipynb
+Finding the optimal multilabel model and applying the speech. 
+
+Make use of the files
+1. Run the Combined_model.ipynb
+The found models will be saved together with its optimal parameters
+
+2. Run the Demo_Diary.py
+Run the code and your diary entries are stored in the CSV file, the model will predict your emotions and sentiment and store it for further analysis. 
