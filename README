@@ -1,7 +1,7 @@
 Explanation of files
 
 1. Binary_Speech_to_Text.ipynb
-Finding the optimal binairy model and applying the audio files
+Finding the optimal binary model and applying the audio files
 
 2. Combined_model.ipynb
 This file contains the best models for the sentiment analysis and the emotion detection. The optimal parameters will be determined in this file and the models will be saved. 
@@ -25,7 +25,7 @@ Demonstration of the use of the sentiment and emotion detection
 Script, sentiment and emotions of the audios= files
 
 7. mood_diary.csv
-Diary entries and predictions are stores here
+Diary entries and predictions are stored here
 
 8. MultiLabelModel.ipynb
 File used to research which is the best model to use for multilabel classification
